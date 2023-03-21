@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3b3b3b;
+}
+
+main {
+  font-family: "Sono", sans-serif;
+  padding: 50px;
+}
+
+p {
+  font-size: large;
+}
+
+.pic-profile {
+  height: 150px;
+  margin-bottom: 8px;
+  border-radius: 80px;
+  border: 4px solid #242424;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 12px;
+  color: #fff;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.iconBtn {
+  padding: 5px;
+}
+
+.icon-color {
+  text-decoration: none;
+  color: #fff;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksBtn {
+  margin: 5px 0px;
+  padding: 20px;
+  background-color: #242424;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+.linksBtn:hover {
+  border: 2.5px solid #242424;
+  background-color: #fff;
+  color: #242424;
+  padding: 19px;
+}
+
+@media (max-width: 400px) {
+  p {
+    font-size: small;
+  }
+}
